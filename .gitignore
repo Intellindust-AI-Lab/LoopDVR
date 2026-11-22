@@ -221,3 +221,11 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Downloaded model weights and local prediction files
+weights/*
+*.pth
+outputs
+case
+
+.vscode
