@@ -1,14 +1,14 @@
 <div align="center">
 
-<img src="assets/LoopDVR_logo.png" alt="LoopDVR" width="40%">
-<h2 >Looped Transformer for Efficient Dense Visual Recognition</h2>
-
+<img src="assets/LoopDVR_logo.png" alt="LoopDVR" width="50%">
+<h2>Looped Transformer for Efficient Dense Visual Recognition</h2>
 <p>
-  <a href=""><img src="https://img.shields.io/badge/Webpage-LoopDVR-blue.svg" alt="Webpage"></a>
-  <a href=""><img src="https://img.shields.io/badge/arXiv-LoopDVR-orange.svg" alt="arXiv"></a>
+  <!-- <a href=""><img src="https://img.shields.io/badge/arXiv-LoopDVR-orange.svg" alt="arXiv"></a> -->
+  <a href="https://siruuui.github.io/LoopDVR/"><img src="https://img.shields.io/badge/Webpage-LoopDVR-blue.svg" alt="Webpage"></a>
+<a href="https://siruuui.github.io/LoopDVR/loopdet-camera/"><img src="https://img.shields.io/badge/Live%20Demo-Online-2EA44F.svg" alt="Live Demo"></a>
 </p>
 
-#### Sirui Liang<sup>1,2</sup> · [Xuanlong Yu<sup>2</sup>](https://xuanlong-yu.github.io/) · [Longfei Liu<sup>2</sup>](https://capsule2077.github.io/) · [Xiaodong Cun<sup>1,📪</sup>](https://vinthony.github.io/academic/) · [Xi Shen<sup>2</sup>](https://xishen0220.github.io/)
+#### [Sirui Liang<sup>1,2</sup>](https://siruuui.github.io/) · [Xuanlong Yu<sup>2</sup>](https://xuanlong-yu.github.io/) · [Longfei Liu<sup>2</sup>](https://capsule2077.github.io/) · [Xiaodong Cun<sup>1,📪</sup>](https://vinthony.github.io/academic/) · [Xi Shen<sup>2</sup>](https://xishen0220.github.io/)
 
 <sup>1</sup> [GVC Lab](https://gvclab.github.io/), [Great Bay University](https://www.gbu.edu.cn/) &nbsp;&nbsp; <sup>2</sup> [Intellindust AI Lab](https://github.com/Intellindust-AI-Lab)
 
@@ -17,13 +17,24 @@
   <img src="assets/main_comparison_seg.png" width="32.5%" alt="Instance segmentation: COCO AP versus model parameters">
   <img src="assets/main_comparison_pose.png" width="32.5%" alt="Pose estimation: COCO AP versus model parameters">
 </p>
+<p>
+  <strong>Achieving exceptional parameter efficiency via looped Transformer.</strong>
+</p>
 </div>
+
+> ### 🖥️ Try LoopDVR in your browser! — [**Open↗**](https://siruuui.github.io/LoopDVR/loopdet-camera/)
+
+
 
 ## 📋 TODO
 - [ ] If you find LoopDVR useful or interesting, please give us a Star🌟! Your support drives us to keep improving.
 - [ ] Fix bugs (If you encounter any issues, please feel free to open an issue or contact me! 🙏)
 - [ ] 🔥 Release `paper`!
-- [ ] 🔥 Release `inference code` and `pretrained weights`!
+- [x] 🔥 Release `inference code` and `pretrained weights`!
+
+## 👀 Visualization Results
+
+https://github.com/user-attachments/assets/73c1c8a5-d821-41e2-bb86-c9da4150077a
 
 ## ⚙️ Method
 
@@ -136,17 +147,6 @@ Evaluation runs in FP32, using batch size 4 by default.
 `--batch-size` and `--workers` to adjust evaluation settings. 
 
 </details>
-
-## 👀 Visualization Results
-
-
-<p align="center"><b>LoopSeg</b></p>
-<video src="https://github.com/user-attachments/assets/abe1631e-599e-40d0-b5d9-0748f829917b" controls="controls" width="100%"></video>
-
-<p align="center"><b>LoopPose</b></p>
-<video src="https://github.com/user-attachments/assets/43bbb06b-6943-4379-9c7d-4c8a837eaac9" controls="controls" width="100%"></video>
-
-
 
 ## ❤️ Acknowledgements
 
