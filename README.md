@@ -2,11 +2,13 @@
 
 <img src="assets/LoopDVR_logo.png" alt="LoopDVR" width="50%">
 <h2>Looped Transformer for Efficient Dense Visual Recognition</h2>
-<p>
-  <!-- <a href=""><img src="https://img.shields.io/badge/arXiv-LoopDVR-orange.svg" alt="arXiv"></a> -->
-  <a href="https://siruuui.github.io/LoopDVR/"><img src="https://img.shields.io/badge/Webpage-LoopDVR-blue.svg" alt="Webpage"></a>
-<a href="https://siruuui.github.io/LoopDVR/loopdet-camera/"><img src="https://img.shields.io/badge/Live%20Demo-Online-2EA44F.svg" alt="Live Demo"></a>
+<p align="center">
+  <a href="https://arxiv.org/pdf/2611.32067"><img src="https://img.shields.io/badge/arXiv-2611.32067-B31B1B.svg" alt="arXiv"></a>
+  <a href="https://www.alphaxiv.org/pdf/2611.32067"><img src="https://img.shields.io/badge/alphaXiv-2611.32067-8250DF.svg" alt="alphaXiv"></a>
+  <a href="https://siruuui.github.io/LoopDVR/"><img src="https://img.shields.io/badge/Webpage-LoopDVR-007EC6.svg" alt="Webpage"></a>
+  <a href="https://siruuui.github.io/LoopDVR/loopdet-camera/"><img src="https://img.shields.io/badge/Live%20Demo-Online-2EA44F.svg" alt="Live Demo"></a>
 </p>
+
 
 #### [Sirui Liang<sup>1,2</sup>](https://siruuui.github.io/) · [Xuanlong Yu<sup>2</sup>](https://xuanlong-yu.github.io/) · [Longfei Liu<sup>2</sup>](https://capsule2077.github.io/) · [Xiaodong Cun<sup>1,📪</sup>](https://vinthony.github.io/academic/) · [Xi Shen<sup>2</sup>](https://xishen0220.github.io/)
 
@@ -29,7 +31,7 @@
 ## 📋 TODO
 - [ ] If you find LoopDVR useful or interesting, please give us a Star🌟! Your support drives us to keep improving.
 - [ ] Fix bugs (If you encounter any issues, please feel free to open an issue or contact me! 🙏)
-- [ ] 🔥 Release `paper`!
+- [x] 🔥 Release `paper`!
 - [x] 🔥 Release `inference code` and `pretrained weights`!
 
 ## 👀 Visualization Results
@@ -157,5 +159,10 @@ We thank the authors of the following open-source projects that made this work p
 If you find this project useful in your research, please consider citing:
 
 ```bibtex
-
+@article{liang2026loopdvr,
+  title={{LoopDVR}: Looped Transformer for Efficient Dense Visual Recognition},
+  author={Liang, Sirui and Yu, Xuanlong and Liu, Longfei and Cun, Xiaodong and Shen, Xi},
+  journal={arXiv preprint arXiv:2611.32067},
+  year={2026},
+}
 ```
